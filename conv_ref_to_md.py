@@ -3,7 +3,7 @@ def print_lines(lines):
     for line in lines:
         print(line, end='')
 
-file_in = 'sample_ref.txt'
+file_in = 'input.txt'
 file_out = 'output.txt'
 
 with open(file_in, 'rt') as f:
